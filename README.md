@@ -1,6 +1,9 @@
 
 ## .NET Core Wrapper for *[CEX.IO](https://cex.io/)*
 
+### What is new (version 1.1.0)?
+In CexCore version 1.1.0 I have added support for trading with QASH and GUSD. Both of those currencies came officially to cex.io, so I added support for them.
+
 ### Getting started
 This is completed version of original repository by fasetto.
 In this fork, I have filled the gap created by original author with adding all crypto currencies available on CEX.IO and fixed a small bug for placing market order.
