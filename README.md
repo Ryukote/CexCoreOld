@@ -1,9 +1,6 @@
 
 ## .NET Core Wrapper for *[CEX.IO](https://cex.io/)*
 
-### What is new (version 1.1.0)?
-In CexCore version 1.1.0 I have added support for trading with QASH and GUSD. Both of those currencies came officially to cex.io, so I added support for them.
-
 ### Getting started
 This is completed version of original repository by fasetto.
 In this fork, I have filled the gap created by original author with adding all crypto currencies available on CEX.IO and fixed a small bug for placing market order.
@@ -80,13 +77,9 @@ var position = new Position()
 var positionId = await client.Account.OpenPosition(position);
 ```
 
-## Donations 
-
-If you thin this project is good and want to show your support for further development of this repository, you can donate any amount of BTC. If you don't feel with donating, you can be a contributor and help me that way.
-
-<div style="text-align:center">
-    <a href="https://blockchain.info/address/322SRqTS3EeKGaVFuo6xsw8e5Xji4QcJR6">
-
-    Click to see my BTC address
-    
-</div>
+# You want to support this library?
+If you think this library is great idea and you want to support this, you can help with issues, pull requests and small donations.
+You can do donations with:
+  - BTC on: 322SRqTS3EeKGaVFuo6xsw8e5Xji4QcJR6
+  - ETH on: 0xc06d8766061e0644fb780f38abb1226ba289664c
+  - XRP on: rE1sdh25BJQ3qFwngiTBwaq3zPGGYcrjp1 with destination tag: 59558
